@@ -2,9 +2,7 @@ import { StrictMode, useState } from 'react'
 import { createRoot } from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './index.css'
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
 import Home from './routes/Home.jsx'
 import Details from './routes/Details.jsx'
 import Ticket from './routes/Tickets.jsx'

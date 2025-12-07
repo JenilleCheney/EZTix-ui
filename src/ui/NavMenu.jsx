@@ -32,10 +32,10 @@ const NavMenu = ({ searchTerm, onSearchChange }) => {
               <Nav.Link as={Link} to="/Tickets">Tickets</Nav.Link>
           </Nav>
           {isHomePage && (
-            <Form className="d-flex">
+            <Form className="d-flex ms-4">
               <Form.Control
                 type="search"
-                placeholder="Search shows..."
+                placeholder="Search Shows ..."
                 className="me-2"
                 aria-label="Search"
                 value={searchTerm}
